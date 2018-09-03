@@ -1,0 +1,125 @@
+body {
+	margin:0;
+}
+
+#eventId {
+	font-size: 15px;
+}
+
+#eventDesc {
+  	font-size: 15px;
+  	font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color: Navy;
+    margin: 0 0 30px 0;
+}
+
+tbody tr {
+	text-align: center;
+}
+
+#divider {
+	width: 100%;
+	border-bottom: dashed;
+}
+
+.index {
+	text-align: center;
+	width: 100%;
+}
+
+.index-btn {
+	width: 100%;
+}
+
+.row {
+	border: 1px solid black;
+}
+
+.date {
+	text-transform: capitalize;
+	color: red;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.pageName {
+	text-transform: capitalize;
+	font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;	
+}
+
+.low {
+	
+}
+
+.medium {
+	background-color: orange;
+}
+
+.high {
+	background-color: green;
+	color: white;
+}
+
+
+.message {
+	background-color: lavender;
+	padding-bottom: 15px;
+}
+
+#form-overlay {
+    display: none;
+}
+
+#overlay, #form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+    text-align: center;
+}
+
+#dyn_form {
+	    width: 400px;
+    margin: auto;
+    background-color: lightslategray;
+    margin-top: 42px;
+    opacity: 1;
+}
+
+.topBanner_1 {
+    height: 41px;
+    padding: 5px;
+}
+
+.topBanner_1 img {
+    height: 35px;
+}
+
+.topBanner_1 a {
+    float: right;
+}
+
+.topBanner_2 {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#topBanner_admin2 {
+	background-color: gray;
+}
+
+#topBanner_admin1 {
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,11 @@
+#topBanner_calendar1 {
+    height: 41px;
+    padding: 5px;
+    background-color: #ff0000;
+}
+
+#topBanner_calendar2 {
+	background-color: #ff8080!important;
+    height: 30px;
+    margin-bottom: 10px;
+}

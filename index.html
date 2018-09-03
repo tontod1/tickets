@@ -1,0 +1,57 @@
+<html><head></head>
+<body style="background-color: #eae3c6;">
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '922471214585632',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.11'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+
+  function checkLoginState() {
+
+FB.getLoginStatus(function(response) {
+ 
+	if (response.status === 'connected') {
+	    var accessToken = response.authResponse.accessToken;
+	    window.location="menu.php?token="+accessToken;
+	  } 
+	} );
+
+	}
+
+
+//   FB.getLoginStatus(function(response) {
+// 	    statusChangeCallback(response);
+// 	});
+
+	function  statusChangeCallback(response) {
+		}
+	
+</script>
+<div style="text-align:center;">
+<img src="images/tickets_banner.jpg" />
+<h1>Welcome to ticket tracker!</h1>
+<h2>By clicking the Facebook link you can enter the name of you favorite artist and venues to be on top of all the action!</h2>
+<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false" onlogin="checkLoginState();"></div>
+</div>
+<div id="fb-root"></div>
+
+</body>
+</html>

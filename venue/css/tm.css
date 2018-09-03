@@ -1,0 +1,95 @@
+#eventId {
+	font-size: 15px;
+}
+
+#eventDesc {
+  	font-size: 15px;
+  	font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color: Navy;
+    margin: 0 0 30px 0;
+}
+
+tbody tr {
+	text-align: center;
+}
+
+#divider {
+	width: 100%;
+	border-bottom: dashed;
+}
+
+.index {
+	text-align: center;
+	width: 100%;
+}
+
+.index-btn {
+	width: 100%;
+}
+
+.row {
+	border: 1px solid black;
+}
+
+.date {
+	text-transform: capitalize;
+	color: red;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.pageName {
+	text-transform: capitalize;
+	font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;	
+}
+
+.low {
+	
+}
+
+.medium {
+	background-color: orange;
+}
+
+.high {
+	background-color: green;
+	color: white;
+}
+
+
+.message {
+	background-color: lavender;
+	padding-bottom: 15px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+    text-align: center;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+	text-align: center;
+}
+
+
+#topBanner_tm1 {
+    background-color: #009CDE;
+}
+
+#topBanner_tm2 {
+	background-color: #0087c1 !important;
+}

@@ -1,0 +1,38 @@
+#eventId {
+	font-size: 15px;
+}
+
+#eventDesc {
+  	font-size: 15px;
+  	font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color: Navy;
+    margin: 0 0 30px 0;
+}
+
+tbody tr {
+	text-align: center;
+}
+
+#divider {
+	width: 100%;
+	border-bottom: dashed;
+}
+
+.index {
+	text-align: center;
+	width: 100%;
+}
+
+.index-btn {
+	width: 100%;
+}
+
+#topBanner_tr1 {
+    background-color: white;
+}
+
+#topBanner_tr2 {
+	background-color: #ff0000!important;
+}

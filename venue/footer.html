@@ -1,0 +1,25 @@
+<script type="text/javascript">
+
+function startChart() {
+
+  	    var table = $('#example').DataTable(
+  	    		{
+  	    		order: [[ 3, "asc" ]],
+  	    	    "lengthMenu": [[-1, 10, 25, 50], ["ALL", 10, 25, 50]]
+  	    		}
+  	    		);
+  	     
+  	    $('#example tbody').on('click', 'tr', function () {
+  	        var data = table.row( this ).data();
+  	    } );
+  	    
+}
+
+startChart();
+
+generatePopulatedCalendar();
+
+</script>
+
+</body>
+</html>

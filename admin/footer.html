@@ -1,0 +1,22 @@
+<script type="text/javascript">
+
+function startChart() {
+
+  	    var table = $('#example').DataTable(
+  	    		{
+  	    		order: [[ 3, "desc" ]]
+  	    		}
+  	    		);
+  	     
+  	    $('#example tbody').on('click', 'tr', function () {
+  	        var data = table.row( this ).data();
+  	    } );
+  	    
+}
+
+startChart();
+
+</script>
+
+</body>
+</html>
